@@ -1,0 +1,3 @@
+file:
+  response:
+    header: agencia;conta;saldo;status;sincronizado
