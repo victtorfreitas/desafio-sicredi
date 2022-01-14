@@ -1,0 +1,9 @@
+{
+  "properties": [
+    {
+      "name": "file.response.header",
+      "type": "java.lang.String",
+      "description": "This is header to response file."
+    }
+  ]
+}

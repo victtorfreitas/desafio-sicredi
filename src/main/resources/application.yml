@@ -1,0 +1,7 @@
+spring:
+  banner:
+    location: classpath:banner.txt
+
+file:
+  response:
+    header: agencia;conta;saldo;status;sincronizado
