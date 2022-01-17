@@ -1,5 +1,5 @@
 # Desafio Sicredi
-[![Maven Package](https://github.com/victtorfreitas/desafio-sicredi/actions/workflows/maven-publish.yml/badge.svg)](https://github.com/victtorfreitas/desafio-sicredi/actions/workflows/maven-publish.yml)
+[![Build](https://github.com/victtorfreitas/desafio-sicredi/actions/workflows/main.yml/badge.svg)](https://github.com/victtorfreitas/desafio-sicredi/actions/workflows/main.yml)
 
 Este projeto contém a resolução do desafio da instituição Sicredi.
 
