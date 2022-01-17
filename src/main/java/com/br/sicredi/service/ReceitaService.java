@@ -15,7 +15,6 @@ public class ReceitaService {
   public void updateConta(Conta conta) {
     boolean isUpdate = updateConta(conta.getAgencia(),
         conta.getNumero(),
-        conta.getSaldo(),
         conta.getStatus() != null ? conta.getStatus().name() : "");
     conta.setUpdate(isUpdate);
   }
