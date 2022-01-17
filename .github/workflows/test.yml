@@ -23,5 +23,9 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Thundra Maven Test Instrumentation
-      uses: thundra-io/thundra-maven-test-action@v1.0.4
+      uses: thundra-io/thundra-maven-test-action@v1
+      with:
+        apikey: ${{ secrets.THUNDRA_APIKEY }}
+        project_id: ${{ secrets.THUNDRA_PROJECT_ID }}
+        command: mvn clean verify
 
