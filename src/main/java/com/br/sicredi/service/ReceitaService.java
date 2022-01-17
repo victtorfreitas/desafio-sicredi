@@ -20,7 +20,7 @@ public class ReceitaService {
     conta.setUpdate(isUpdate);
   }
 
-  private boolean updateConta(String agencia, String conta, double saldo, String status)
+  private boolean updateConta(String agencia, String conta, String status)
       throws InterruptedException, ReceitaException {
 
     if (isContaInvalid(agencia, conta, status)) {
